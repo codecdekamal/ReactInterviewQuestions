@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+   display: flex;
+   width: 500px;
+   border: 1px solid black;
+   border-radius: 15px;
+   height: 12vh;
+   overflow: hidden;
+
+}
+span{ 
+    position: absolute;
+    width:500px;
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.percent{
+    width: 20%;
+    height:100%;
+    background-color: green;
+}
